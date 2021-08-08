@@ -1,0 +1,14 @@
+# Common temp stuff
+*~
+*.*~
+~$*
+.DS_Store
+Thumbs.db
+.idea
+
+# NPM
+node_modules
+npm-debug.log
+
+# Yarn
+yarn-error.log

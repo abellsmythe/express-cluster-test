@@ -1,0 +1,17 @@
+{
+  "name": "cluster-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cluster": "node cluster.js",
+    "simple": "node simple.js",
+    "test": "loadtest -n 1000 -c 100 http://localhost:3000"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "loadtest": "^5.1.2"
+  }
+}
